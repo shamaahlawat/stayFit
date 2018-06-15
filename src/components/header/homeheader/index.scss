@@ -1,0 +1,23 @@
+.HeaderContainer {
+	color: #fff;
+	max-height: 100%;
+	padding: 10px 0;
+
+	.LogoContainer {
+		font-size: 20px;
+		align-items: center;
+
+		img {
+			margin-right: 5px;
+		}
+	}
+
+	.ActionsContainer {
+		.AvatarIcon {
+			&:hover {
+				color: #f56a00;
+				background-color: #fde3cf;
+			}
+		}
+	}
+}

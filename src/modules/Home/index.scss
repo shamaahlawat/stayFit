@@ -1,0 +1,18 @@
+.HomeContainer {
+	.HomeHeaderContainer {
+		padding: 0 30px;
+	}
+
+	.HomeContentLayoutContainer {
+		.HomeContentContainer {
+			.HomeContent {
+				margin: 15px;
+			}
+
+			.HomeFooter {
+				text-align: center;
+				padding: 15px;
+			}
+		}
+	}
+}

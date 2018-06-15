@@ -1,0 +1,38 @@
+@import "../../data/assets/style/style_import.scss";
+
+@media only screen and (min-width: 768px) {
+    .appFooterContainer {
+        .footerCardContainer {
+            position: absolute;
+            z-index: 1;
+        }
+    }
+}
+
+.appFooterContainer {
+	z-index:1;
+    background-color: $black-bg;
+    font-family: $font-family-secondary;
+    word-wrap: break-word;
+
+    .footerCardContainer {
+        background-color: $black-bg-light;
+        line-height: 1.7;
+    }
+
+    .footerBodyContainer {
+        background-color: $black-bg-dark;
+
+        ul {
+            li {
+                cursor: pointer;
+                padding: 2px 0;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

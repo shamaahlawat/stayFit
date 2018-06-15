@@ -1,0 +1,18 @@
+@import "../../data/assets/style/style_import";
+
+.mainContainer {
+    .firstSection {
+        height: 90vh;
+        background: grey;
+
+        .button {
+            background: red;
+            padding: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .redArea {
+        min-height: 350px;
+    }
+}
